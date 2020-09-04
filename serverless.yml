@@ -1,0 +1,7 @@
+org: garethmccumskey
+app: cicd
+component: express
+name: express-starter
+
+inputs:
+  src: ./
