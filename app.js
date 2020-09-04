@@ -6,6 +6,7 @@ const app = express();
 
 // Routes
 app.get('/*', (req, res) => {
+  console.log('Made a change');
   res.send(`Request received: ${req.method} - ${req.path}`);
 });
 
